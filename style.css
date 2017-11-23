@@ -57,5 +57,9 @@
 .subcontent-height{height:300px}
 .footer-height{ height:30px;}
 
-
+.row-after{
+    content: '';
+    clear: both;
+    display: block;
+}
 
