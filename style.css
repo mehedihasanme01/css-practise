@@ -2,11 +2,16 @@
     font-size: 50px;
     color: yellow;
 }
-
 .box-one{
     height: 300px;
     float: left;
+    margin:10px 20px 30px 40px;
     width:400px;
+    float: left;
+    box-sizing: border-box;
+    padding-top:150px;
+    padding-left: 150px;
+
     background-color: red;
 }
 
@@ -14,5 +19,11 @@
     height: 300px;
     width:400px;
     background-color: green;
+    float: left;
+}
+.box-three{
+    height: 300px;
+    width:1000px;
+    background-color: orange;
     float: left;
 }
